@@ -28,7 +28,7 @@ if __name__ == "__main__":
         filename = sys.argv[1]
         remove_duplicates = sys.argv[2].lower() == "yes"
     else:
-        print("The file must be specified as the first argument")
+        print("The file must be specified as the first argument :)")
         print("The second argument indicates whether duplicates should be removed")
         sys.exit(1)
 
