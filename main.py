@@ -45,5 +45,7 @@ if __name__ == "__main__":
 
     if remove_duplicates:
         word_list = remove_duplicates_from_list(word_list)
+        print("Se eliminan items duplicados")
+
 
     print(sort_list(word_list))
